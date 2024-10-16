@@ -6,8 +6,7 @@ import { useState, useContext, createContext } from "react";
 
  export function AppProvider( {children}){
     const [appstate, setAppState] = useState ({isActive: true });
-    return 
-        <AppContext.Provider value={appstate}>{children}</AppContext.Provider>;
+    return <AppContext.Provider value={appstate}>{children}</AppContext.Provider>;
  }
 
  export default function useAppState() {
