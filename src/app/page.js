@@ -3,7 +3,7 @@ import ShowcaseImage from "@/components/ShowcaseImage"
 
 export default function Home(){
   return (
-      <main >
+      <main   >
         <h1>The Squigly Zebra</h1>
         <section className={pageStyles.zebraShowcaseImages}>
             <ShowcaseImage title='On The Beach!' shortDesc='Summer 2023'/>
